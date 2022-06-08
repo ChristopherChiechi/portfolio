@@ -45,22 +45,61 @@ const Card = (props) => {
               <span>{props.name}</span>
               <h1>{props.subtitle}</h1>
 
-              <h1>{props.title_1}</h1>
-              <h2>{props.sub_1}</h2>
-              <p>{props.desc_1}</p>
+              <h1>{props.title1}</h1>
+              <h2>{props.sub1_1}</h2>
+              <p>{props.desc1_1}</p>
+              <h2>{props.sub1_2}</h2>
+              <p>{props.desc1_2}</p>
+              <h2>{props.sub1_3}</h2>
+              <p>{props.desc1_3}</p>
 
-              <h1>{props.title_2}</h1>
-              <h2>{props.sub_2}</h2>
-              <p>{props.desc_2}</p>
-
-              <h1>{props.title_3}</h1>
-              <h2>{props.sub_3}</h2>
-              <p>{props.desc_3}</p>
-
-              <h1>{props.title_4}</h1>
-              <h2>{props.sub_4}</h2>
-              <p>{props.desc_4}</p>
+              <h1>{props.title2}</h1>
+              <h2>{props.sub2_1}</h2>
+              <p>{props.desc2_1}</p>
+              <h2>{props.sub2_2}</h2>
+              <p>{props.desc2_2}</p>
+              <h2>{props.sub2_3}</h2>
+              <p>{props.desc2_3}</p>
               
+              <h1>{props.title3}</h1>
+              <h2>{props.sub3_1}</h2>
+              <p>{props.desc3_1}</p>
+              <h2>{props.sub3_2}</h2>
+              <p>{props.desc3_2}</p>
+              <h2>{props.sub3_3}</h2>
+              <p>{props.desc3_3}</p>
+
+              <h1>{props.title4}</h1>
+              <h2>{props.sub4_1}</h2>
+              <p>{props.desc4_1}</p>
+              <h2>{props.sub4_2}</h2>
+              <p>{props.desc4_2}</p>
+              <h2>{props.sub4_3}</h2>
+              <p>{props.desc4_3}</p>
+
+              <h1>{props.title5}</h1>
+              <h2>{props.sub5_1}</h2>
+              <p>{props.desc5_1}</p>
+              <h2>{props.sub5_2}</h2>
+              <p>{props.desc5_2}</p>
+              <h2>{props.sub5_3}</h2>
+              <p>{props.desc5_3}</p>
+
+              <h1>{props.title6}</h1>
+              <h2>{props.sub6_1}</h2>
+              <p>{props.desc6_1}</p>
+              <h2>{props.sub6_2}</h2>
+              <p>{props.desc6_2}</p>
+              <h2>{props.sub6_3}</h2>
+              <p>{props.desc6_3}</p>
+
+              <h1>{props.title7}</h1>
+              <h2>{props.sub7_1}</h2>
+              <p>{props.desc7_1}</p>
+              <h2>{props.sub7_2}</h2>
+              <p>{props.desc7_2}</p>
+              <h2>{props.sub7_3}</h2>
+              <p>{props.desc7_3}</p>
 
               <button className='close-modal btn_shadow' onClick={toggleModal}>
                 <i class='fas fa-times'></i>

@@ -43,34 +43,18 @@ const Card = (props) => {
               <span>{props.category}</span>
               <h1>{props.title}</h1>
               <p>{props.desc}</p>
-               
-              {/*
-              <div className='button f_flex mtop'>
-                <button className='btn_shadow'>
-                  VIEW PROJECT<i class='fas fa-chevron-right'></i>
-                </button>
-              </div>
-              */}
               <div className='button f_flex mtop'>
                 <button
                     className='btn_shadow'
                     type="button"
                     onClick={(e) => {
                       e.preventDefault();
-                      window.open(
-                        props.link,
-                        '_blank' // <- This is what makes it open in a new window.
-                      );
-                      //window.location.href='http://google.com';
+                      window.open(props.link, '_blank');
                       }}
                     >
-                    View Project
+                    View Project <i class='fas fa-chevron-right'></i>
                   </button>
                 </div>
-
-
-
-
 
               <button className='close-modal btn_shadow' onClick={toggleModal}>
                 <i class='fas fa-times'></i>

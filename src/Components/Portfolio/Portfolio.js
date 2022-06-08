@@ -1,7 +1,7 @@
 import React from "react"
 import "./Portfolio.css"
 import Card from "./Card"
-import Portfolio_data from "./Portfolio_data"
+import PortfolioData from "./PortfolioData"
 
 const Portfolio = () => {
   return (
@@ -9,12 +9,11 @@ const Portfolio = () => {
       <section className='Portfolio top' id='portfolio'>
         <div className='container'>
           <div className='heading text-center'>
-            {/*<h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>*/}
             <h1>Portfolio</h1>
           </div>
 
           <div className='content grid'>
-            {Portfolio_data.map((value, index) => {
+            {PortfolioData.map((value, index) => {
               return <Card key={index} category={value.category} title={value.title} image={value.image} link={value.link} desc={value.desc}/>
             })}
 

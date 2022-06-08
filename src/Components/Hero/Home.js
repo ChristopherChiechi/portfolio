@@ -1,7 +1,6 @@
 import React from "react"
 import "./Home.css"
 import hero from "../Images/bodyshot1.png"
-//import hero from "../Images/headshotcrop2.jpg"
 import { Typewriter } from "react-simple-typewriter"
 
 const Home = () => {
@@ -10,7 +9,6 @@ const Home = () => {
       <section className='hero' id='home'>
         <div className='container f_flex top'>
           <div className='left top'>
-            {/*<h3>WELCOME TO MY WORLD</h3>*/}
             <h2>
               Hi, I’m <span>Christopher Chiechi</span>
             </h2>
@@ -21,10 +19,10 @@ const Home = () => {
               </span>
             </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              I graduated magna cum laude from the University of North Texas with a bachelor's in computer science and a certificate in game programming.
+              C/C++ was used for nearly all of my programming courses. I try to experience a wide variety of media from all mediums; however, video games are by far the 
+              most diverse and interesting. I am extremely passionate about this medium, through both creating and playing, and it would be very fulfilling to have a hand 
+              in their development.
             </p>
             <div className='hero_btn d_flex'>
               <div className='col_1'>

@@ -1,4 +1,4 @@
-header {
+Header {
   height: 7vh;
   line-height: 3.5vh;
 
@@ -8,19 +8,19 @@ header {
   width: 100%;
   background-color: #ecf0f3;
 }
-header .container {
+Header .container {
   padding-top: 15px;
 }
-header ul li {
+Header ul li {
   margin-left: 30px;
 }
-header ul li a {
+Header ul li a {
   transition: 0.5s;
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 1px;
 }
-header ul li a:hover {
+Header ul li a:hover {
   color: var(--primary-color);
 }
 
@@ -43,7 +43,7 @@ header ul li a:hover {
 .open {
   display: none;
 }
-.header.active {
+.Header.active {
   height: 7vh;
   position: fixed;
   top: 0;
@@ -55,7 +55,7 @@ header ul li a:hover {
 }
 
 @media (max-width: 768px) {
-  header ul {
+  Header ul {
     padding-top: 30px;
   }
   .nav-links-mobile {
@@ -71,13 +71,13 @@ header ul li a:hover {
     background-color: white;
     z-index: 888;
   }
-  header ul li {
+  Header ul li {
     width: 100%;
     transition: all 0.5s ease-in-out;
     text-transform: uppercase;
     line-height: 70px;
   }
-  header .link {
+  Header .link {
     display: none;
   }
   .close,
@@ -102,7 +102,7 @@ header ul li a:hover {
     height: 60px;
     line-height: 60px;
   }
-  .header.active {
+  .Header.active {
     height: 10vh;
   }
 }

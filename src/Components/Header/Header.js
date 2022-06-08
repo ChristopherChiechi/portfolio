@@ -1,9 +1,9 @@
 import React, { useState } from "react"
-import "./header.css"
+import "./Header.css"
 
 const Header = () => {
   window.addEventListener("scroll", function () {
-    const header = document.querySelector(".header")
+    const header = document.querySelector(".Header")
     header.classList.toggle("active", window.scrollY > 100)
   })
 
@@ -11,7 +11,7 @@ const Header = () => {
   const [Mobile, setMobile] = useState(false)
   return (
     <>
-      <header className='header'>
+      <header className='Header'>
         <div className='container d_flex'>
           <div className='logo'>
           </div>
