@@ -1,6 +1,9 @@
 import Witness from "../../Components/Images/TheWitness.jpg"
 import Demons from "../../Components/Images/DemonsSouls.jpg"
 import Marvelous from "../../Components/Images/Marvelous.jpg"
+import Celeste from "../../Components/Images/Celeste.png"
+import ApexLegends from "../../Components/Images/ApexLegends.png"
+import Thronebreaker from "../../Components/Images/Thronebreaker.png"
 
 const BlogData = [
   {
@@ -92,6 +95,33 @@ const BlogData = [
     title1: "",
     sub1_1: "Upcoming",
     desc1_1: "This game analyses is currently being written and is forthcoming. This was the first game directed by Eiji Aonuma, and it was only released in Japan. Fan translations are now available. Other analyses will include Demon's Souls and Metal Gear Solid. Some of the games from the following list will also be written about: Ico, Celeste, Apex Legends, The Witcher 1-3, Thronebreaker: The Witcher Tales, Chrono Trigger, L.O.L.: Lack of Love.",
+  },
+  {
+    id: 4,
+    image: Celeste,
+    name: "Celeste",
+    subtitle: "Platforming Perfection",
+    title1: "",
+    sub1_1: "Upcoming",
+    desc1_1: "",
+  },
+  {
+    id: 5,
+    image: ApexLegends,
+    name: "Apex Legends",
+    subtitle: "Battle Royale Hero",
+    title1: "",
+    sub1_1: "Upcoming",
+    desc1_1: "",
+  },
+  {
+    id: 6,
+    image: Thronebreaker,
+    name: "Thronebreaker: The Witcher Tales",
+    subtitle: "Strategy Anomaly",
+    title1: "",
+    sub1_1: "Upcoming",
+    desc1_1: "",
   },
 ]
 export default BlogData
