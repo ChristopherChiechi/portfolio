@@ -1,24 +1,27 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.78f49177.css",
-    "main.js": "/portfolio/static/js/main.2ceb9299.js",
+    "main.js": "/portfolio/static/js/main.fc30cd2b.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/ApexLegends.png": "/portfolio/static/media/ApexLegends.47f328873d4ad2eaff2e.png",
     "static/media/bodyshot1.png": "/portfolio/static/media/bodyshot1.b2942142c81319e5b6ca.png",
     "static/media/TheWitness.jpg": "/portfolio/static/media/TheWitness.8e4e708c0cc1a4d9ecfb.jpg",
     "static/media/DemonsSouls.jpg": "/portfolio/static/media/DemonsSouls.8922c4b0525e99af7895.jpg",
     "static/media/ColorRunner.png": "/portfolio/static/media/ColorRunner.8bd3da1d82ce8cedc86f.png",
     "static/media/RubeGoldberg.png": "/portfolio/static/media/RubeGoldberg.2d7db957c20aba491b53.png",
+    "static/media/Thronebreaker.png": "/portfolio/static/media/Thronebreaker.be6c0888002a5727be0c.png",
     "static/media/PerfectDecision.png": "/portfolio/static/media/PerfectDecision.14975433bfccaafeb072.png",
     "static/media/Marvelous.jpg": "/portfolio/static/media/Marvelous.b841e8d0145eb07e3073.jpg",
+    "static/media/Celeste.png": "/portfolio/static/media/Celeste.808879df796ea2dc8a27.png",
     "static/media/ABET.png": "/portfolio/static/media/ABET.6be08a7118cf1fc3e211.png",
     "static/media/Uchugun.png": "/portfolio/static/media/Uchugun.78aea84725c2fa741b6f.png",
     "index.html": "/portfolio/index.html",
     "main.78f49177.css.map": "/portfolio/static/css/main.78f49177.css.map",
-    "main.2ceb9299.js.map": "/portfolio/static/js/main.2ceb9299.js.map",
+    "main.fc30cd2b.js.map": "/portfolio/static/js/main.fc30cd2b.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78f49177.css",
-    "static/js/main.2ceb9299.js"
+    "static/js/main.fc30cd2b.js"
   ]
 }
