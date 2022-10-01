@@ -19,7 +19,7 @@ const PortfolioData = [
     category: "Game Development",
     title: "First Person Shooter",
     image: ColorRunner,
-    link: "https://github.com/ChristopherChiechi/FirstPersonShooter",
+    link: "https://github.com/ChristopherChiechi/ColorRunner",
     desc: "A first-person shooter time trial made in Unreal Engine. The player must navigate the course by sprinting, double jumping, wall running, sliding, and crouching. The player must also switch between four weapons of differing types and shoot moving targets of the same color as their weapon. Three seconds are added for every target missed, and the best time is saved.",
   },
   {
