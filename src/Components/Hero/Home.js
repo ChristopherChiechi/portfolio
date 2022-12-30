@@ -19,10 +19,9 @@ const Home = () => {
               </span>
             </h2>
             <p>
-              I graduated magna cum laude from the University of North Texas with a bachelor's in computer science and a certificate in game programming.
-              C/C++ was used for nearly all of my programming courses. I try to experience a wide variety of media from all mediums; however, video games are by far the 
-              most diverse and interesting. I am extremely passionate about this medium, through both creating and playing, and it would be very fulfilling to have a hand 
-              in their development.
+              I graduated magna cum laude from the University of North Texas with a Bachelor of Science in Computer Science and a Certificate in Game Programming.
+              I am proficient in C++ and object-oriented programming. Below you can find some of my projects, many of which are video games. I find the medium of
+              video games to be the most exciting, as they are varied, complex, and have the ability to not only entertain but also to provide training and research.
             </p>
             <div className='hero_btn d_flex'>
               <div className='col_1'>
