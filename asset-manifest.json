@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.78f49177.css",
-    "main.js": "/portfolio/static/js/main.120fcb09.js",
+    "main.js": "/portfolio/static/js/main.9fde7e94.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/ApexLegends.png": "/portfolio/static/media/ApexLegends.47f328873d4ad2eaff2e.png",
     "static/media/bodyshot1.png": "/portfolio/static/media/bodyshot1.b2942142c81319e5b6ca.png",
@@ -17,11 +17,11 @@
     "static/media/Uchugun.png": "/portfolio/static/media/Uchugun.78aea84725c2fa741b6f.png",
     "index.html": "/portfolio/index.html",
     "main.78f49177.css.map": "/portfolio/static/css/main.78f49177.css.map",
-    "main.120fcb09.js.map": "/portfolio/static/js/main.120fcb09.js.map",
+    "main.9fde7e94.js.map": "/portfolio/static/js/main.9fde7e94.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78f49177.css",
-    "static/js/main.120fcb09.js"
+    "static/js/main.9fde7e94.js"
   ]
 }
