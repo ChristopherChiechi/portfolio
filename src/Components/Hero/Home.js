@@ -1,6 +1,7 @@
 import React from "react"
 import "./Home.css"
-import hero from "../Images/bodyshot1.png"
+//import hero from "../Images/bodyshot1.png"
+import hero from "../Images/bodyshot.png"
 import { Typewriter } from "react-simple-typewriter"
 
 const Home = () => {
@@ -20,8 +21,9 @@ const Home = () => {
             </h2>
             <p>
               I graduated magna cum laude from the University of North Texas with a Bachelor of Science in Computer Science and a Certificate in Game Programming.
-              I am proficient in C++ and object-oriented programming. Below you can find some of my projects, many of which are video games. I find the medium of
-              video games to be the most exciting, as they are varied, complex, and have the ability to not only entertain but also to provide training and research.
+              I am proficient in C++ and object-oriented programming. C/C++ was used for nearly all of my programming courses. Below you can find some of my projects,
+              many of which are video games. I find the medium of video games to be the most exciting, as they are varied, complex, and have the ability to not only entertain
+              but also to provide training and research.
             </p>
             <div className='hero_btn d_flex'>
               <div className='col_1'>
