@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.78f49177.css",
-    "main.js": "/portfolio/static/js/main.9fde7e94.js",
+    "main.css": "/portfolio/static/css/main.3e0238bc.css",
+    "main.js": "/portfolio/static/js/main.32eaa5d9.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/bodyshot.png": "/portfolio/static/media/bodyshot.af44a113ad47a39bf316.png",
     "static/media/ApexLegends.png": "/portfolio/static/media/ApexLegends.47f328873d4ad2eaff2e.png",
-    "static/media/bodyshot1.png": "/portfolio/static/media/bodyshot1.b2942142c81319e5b6ca.png",
     "static/media/TheWitness.jpg": "/portfolio/static/media/TheWitness.8e4e708c0cc1a4d9ecfb.jpg",
     "static/media/DemonsSouls.jpg": "/portfolio/static/media/DemonsSouls.8922c4b0525e99af7895.jpg",
     "static/media/ColorRunner.png": "/portfolio/static/media/ColorRunner.8bd3da1d82ce8cedc86f.png",
@@ -16,12 +16,12 @@
     "static/media/ABET.png": "/portfolio/static/media/ABET.6be08a7118cf1fc3e211.png",
     "static/media/Uchugun.png": "/portfolio/static/media/Uchugun.78aea84725c2fa741b6f.png",
     "index.html": "/portfolio/index.html",
-    "main.78f49177.css.map": "/portfolio/static/css/main.78f49177.css.map",
-    "main.9fde7e94.js.map": "/portfolio/static/js/main.9fde7e94.js.map",
+    "main.3e0238bc.css.map": "/portfolio/static/css/main.3e0238bc.css.map",
+    "main.32eaa5d9.js.map": "/portfolio/static/js/main.32eaa5d9.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78f49177.css",
-    "static/js/main.9fde7e94.js"
+    "static/css/main.3e0238bc.css",
+    "static/js/main.32eaa5d9.js"
   ]
 }
