@@ -1,6 +1,6 @@
 const firstName = 'Christopher';
 const lastName = 'Chiechi';
-const suffix = 'Creative';
+const suffix = 'Portfolio';
 
 const BaseData = {
 	firstName,
