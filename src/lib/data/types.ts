@@ -82,5 +82,17 @@ export interface Education<S extends string = string> extends Item<S> {
 		to?: Date;
 	};
 	subjects: Array<string>;
-	degree: string;
+	name: string;
+	color: Color;
+}
+
+export interface Blog<S extends string = string> extends Item<S> {
+	links: Array<Link>;
+	color: Color;
+	period: {
+		from: Date;
+		to?: Date;
+	};
+	type: string;
+	skills: Array<Skill<S>>;
 }

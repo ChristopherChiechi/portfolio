@@ -28,13 +28,19 @@
 			>
 		</Card>
 	</DialogTrigger>
-	<DialogContent class="flex min-h-[70%] min-w-[70%] flex-col">
-		<DialogTitle>{item.label}</DialogTitle>
-		<div
-			class="flex-1 bg-cover bg-center bg-no-repeat"
-			style={`background-image: url("${item.src}")`}
-		></div>
-		<DialogFooter>
+	<DialogContent class="max-h-[90vh] max-w-[90vw] flex flex-col overflow-hidden">
+		<DialogTitle class="px-4 pt-4">{item.label}</DialogTitle>
+
+		<!-- Scrollable image section with correct height -->
+		<div class="flex-1 overflow-auto p-4">
+			<img
+				src={item.src}
+				alt={item.label}
+				class="object-contain max-h-full max-w-full mx-auto"
+			/>
+		</div>
+
+		<DialogFooter class="px-4 pb-4">
 			<DialogClose>
 				<Button>Close</Button>
 			</DialogClose>

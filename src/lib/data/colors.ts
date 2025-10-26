@@ -1,4 +1,5 @@
 export const NAMED_COLORS = {
+	airforceblue: '#00308F',
 	aliceblue: '#F0F8FF',
 	antiquewhite: '#FAEBD7',
 	aqua: '#00FFFF',

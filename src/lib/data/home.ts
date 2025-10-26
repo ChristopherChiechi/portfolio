@@ -9,14 +9,16 @@ const hero: {
 	description: string;
 	links: Array<{ label: string; href: string; icon: `i-carbon-${string}` }>;
 } = {
-	title: `${BaseData.fullName},`,
+	title: `${BaseData.fullName}`,
 	description:
-		'lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua',
+		`I graduated magna cum laude from the University of North Texas with a Bachelor of Science
+		in Computer Science and a Certificate in Game Programming. I am a software engineer at
+		Lockheed Martin Aeronautics and am currently pursuing a Strategic Management MBA.
+		`,
 	links: [
-		{ label: 'GitHub', href: 'https://github.com', icon: 'i-carbon-logo-github' },
-		{ label: 'LinkedIn', href: 'https://linkedin.com', icon: 'i-carbon-logo-linkedin' },
-		{ label: 'Twitter', href: 'https://twitter.com', icon: 'i-carbon-logo-twitter' },
-		{ label: 'Email', href: 'mailto:riadh.adrani@pm.me', icon: 'i-carbon-at' }
+		{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/christopher-chiechi/', icon: 'i-carbon-logo-linkedin' },
+		{ label: 'GitHub', href: 'https://github.com/ChristopherChiechi', icon: 'i-carbon-logo-github' },
+		{ label: 'Email', href: 'mailto:chiechichris@gmail.com', icon: 'i-carbon-at' },
 	]
 };
 

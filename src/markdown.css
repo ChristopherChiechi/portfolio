@@ -20,8 +20,10 @@
 	--code-interpolation: #d19a66;
 	--code-class-name: #e06c75;
 
-	font-family: 'Space Mono', monospace;
-	font-size: 14px;
+	/* font-family: 'Space Mono', monospace; */
+	/* font-family: "Alegreya"; */
+	font-family: "Crimson Text";
+	font-size: 20px;
 
 	overflow-y: auto !important;
 }

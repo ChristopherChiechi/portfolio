@@ -11,6 +11,7 @@
 	import Assets from '$lib/data/assets';
 	import ExperienceData from '$lib/data/experience';
 	import ProjectsData from '$lib/data/projects';
+	import BlogData from '$lib/data/blog';
 	import type { Skill } from '$lib/data/types';
 	import { href } from '$lib/utils';
 	import { mode } from 'mode-watcher';
@@ -39,6 +40,16 @@
 					});
 				}
 			});
+
+			// BlogData.items.forEach((it) => {
+			// 	if (it.skills.find((skill) => skill.slug === current.slug)) {
+			// 		items.push({
+			// 			link: `/blog/${it.slug}`,
+			// 			logo: $mode === 'dark' ? it.logo.dark : it.logo.light,
+			// 			name: it.name
+			// 		});
+			// 	}
+			// });
 
 			ExperienceData.items.forEach((it) => {
 				if (it.skills.find((skill) => skill.slug === current.slug)) {
@@ -70,7 +81,7 @@
 		{/if}
 		<Separator />
 		{#if related.length !== 0}
-			<div class="flex flex-row flex-wrap items-center gap-2 py-4">
+			<div class="flex flex-row flex-wrap items-center gap-2 px-4 py-4">
 				<Muted>Related items</Muted>
 				{#each related as item}
 					<a href={href(item.link)}>

@@ -8,5 +8,6 @@
 	<a href={ResumeData.resume} class="mx-auto">
 		<Button>Download</Button>
 	</a>
-	<iframe src={ResumeData.resume} class="h-full w-full" title={ResumeData.title}></iframe>
+	<iframe src={ResumeData.resume} class="w-full h-[100vh]" title={ResumeData.title}>
+	</iframe>
 </TitledPage>

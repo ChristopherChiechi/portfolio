@@ -31,7 +31,9 @@
 
 			const isSearched =
 				search.trim().length === 0 ||
-				project.name.trim().toLowerCase().includes(search.trim().toLowerCase());
+				project.name.trim().toLowerCase().includes(search.trim().toLowerCase()) ||
+				project.shortDescription.trim().toLowerCase().includes(search.trim().toLowerCase()) ||
+				project.type.trim().toLowerCase().includes(search.trim().toLowerCase());
 
 			return isFiltered && isSearched;
 		})

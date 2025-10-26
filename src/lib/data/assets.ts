@@ -22,7 +22,8 @@ const Assets = {
 	Numpy: asset('numpy.svg'),
 	Pandas: asset('pandas.svg'),
 	RabbitMQ: asset('rabbitmq.svg'),
-	Rust: asset('rust.svg', 'rust-dark.png'),
+	Rust: asset('rust.png'),
+	Zig: asset('zig.png'),
 	Scrapy: asset('scrapy.png'),
 	Selenium: asset('selenium.svg'),
 	Docker: asset('docker.svg'),
@@ -51,6 +52,7 @@ const Assets = {
 	Android: asset('android.png'),
 	Angular: asset('angular.png'),
 	PostgreSQL: asset('postgres.png'),
+	SQL: asset('sql.png'),
 	Firebase: asset('firebase.png'),
 	Sass: asset('sass.png'),
 	Unknown: asset('no-img.svg'),
@@ -69,7 +71,17 @@ const Assets = {
 	Jest: asset('jest.png'),
 	Unocss: asset('unocss.svg'),
 	Ruvy: asset('ruvy.svg'),
-	Postcss: asset('postcss.svg')
+	Postcss: asset('postcss.svg'),
+	BlueprintVisualScripting: asset("blueprint_visual_scripting.jpg"),
+	Lockheed: asset('lockheed.png'),
+	UNT: asset('unt.png'),
+	Unreal: asset("unreal.png"),
+	Unity: asset("unity.jpg"),
+	LARC: asset("larc.png"),
+	Box2D: asset("box2d.png"),
+	Plotly: asset("plotly.png"),
+	TheWitness: asset("the_witness.jpg"),
+	DemonsSouls: asset("demons_souls.jpg"),
 };
 
 export default Assets;

@@ -25,7 +25,7 @@
 	let location = `${it.organization}, ${it.location}`;
 </script>
 
-<FancyCard href={href(`/education/${it.slug}`)}>
+<FancyCard color={it.color} href={href(`/education/${it.slug}`)}>
 	<CardContent class="flex flex-col gap-8 sm:flex-row">
 		<Avatar>
 			<AvatarFallback>
@@ -34,7 +34,7 @@
 			<AvatarImage src={$mode === 'dark' ? it.logo.dark : it.logo.light} />
 		</Avatar>
 		<div class="flex flex-col gap-4">
-			<CardTitle>{it.degree}</CardTitle>
+			 <CardTitle>{it.name}</CardTitle>
 			<Tooltip openDelay={300}>
 				<TooltipTrigger>
 					<Muted className="flex flex-row items-center gap-2">
@@ -62,9 +62,7 @@
 					<TooltipContent side="bottom">Exact duration</TooltipContent>
 				</TooltipTrigger>
 			</Tooltip>
-			<div>
-				{ellipsify(it.shortDescription, 150)}
-			</div>
+			<div class="py-2 text-sm text-muted-foreground">{ellipsify(it.shortDescription, 150)}</div>
 			<div class="flex flex-row flex-wrap gap-2">
 				{#each it.subjects as subject (subject)}
 					<Badge variant="secondary">{subject}</Badge>

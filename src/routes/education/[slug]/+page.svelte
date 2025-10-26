@@ -16,7 +16,7 @@
 
 	let { data }: { data: { item?: Education } } = $props();
 
-	let title = $derived(`${data?.item?.name ?? 'Not Found'} - Skills`);
+	let title = $derived(`${data?.item?.name ?? 'Not Found'} - Education`);
 	let banner = $derived(
 		($mode == 'dark' ? data?.item?.logo.dark : data.item?.logo.light) ?? Assets.Unknown.light
 	);
@@ -35,7 +35,7 @@
 	{:else}
 		<FancyBanner img={banner}>
 			<div class="flex w-full flex-col items-center justify-center gap-4">
-				<H1>{data.item.degree}</H1>
+				<H1>{data.item.name}</H1>
 				<Muted>{data.item.organization} · {data.item.location}</Muted>
 				<Muted><Muted>{duration}</Muted></Muted>
 				<Separator />

@@ -11,10 +11,9 @@
 		EducationData.items.filter(
 			(it) =>
 				it.name.toLowerCase().includes(search.toLowerCase()) ||
-				it.description.toLowerCase().includes(search) ||
-				it.location.toLowerCase().includes(search) ||
-				it.degree.toLowerCase().includes(search) ||
-				it.organization.toLowerCase().includes(search)
+				it.shortDescription.toLowerCase().includes(search.toLowerCase()) ||
+				it.location.toLowerCase().includes(search.toLowerCase()) ||
+				it.organization.toLowerCase().includes(search.toLowerCase())
 		)
 	);
 

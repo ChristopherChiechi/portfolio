@@ -12,7 +12,7 @@
 			(it) =>
 				it.name.toLowerCase().includes(search.toLowerCase()) ||
 				it.company.toLowerCase().includes(search.toLowerCase()) ||
-				it.description.toLowerCase().includes(search)
+				it.shortDescription.toLowerCase().includes(search.toLowerCase())
 		)
 	);
 
