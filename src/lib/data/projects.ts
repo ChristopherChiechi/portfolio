@@ -21,6 +21,7 @@ const items: Array<Project> = [
 		shortDescription:
 			"PhD Parkinson's Research Study",
 		links: [
+			{ to: 'https://www.mdsabstracts.org/abstract/the-investigation-of-a-novel-video-game-for-identifying-mild-cognitive-impairment-in-individuals-with-parkinsons-disease/', label: 'International Parkinson and Movement Disorder Society'},
 			{ to: 'https://www.researchgate.net/publication/369938939_The_Investigation_of_a_Novel_Video_Game_for_Identifying_Mild_Cognitive_Impairment_in_Individuals_with_Parkinsonism', label: 'ResearchGate' },
 			{ to: 'https://github.com/ChristopherChiechi/ParkinsonsGame', label: 'GitHub' },
 		],
