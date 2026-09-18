@@ -8,10 +8,12 @@ const items: Array<Experience> = [
 	{
 		slug: 'lockheed-martin-software-engineer',
 		company: 'Lockheed Martin Aeronautics',
-		description: `I work on the Integrated System Evaluation team and develop tools to analyze aircraft performance. 
-		My team's work involves data engineering, data science, and software engineering. 
+		description: `I have experience working on a cross-functional team developing many 
+		concurrent projects that span the full development lifecycle, collaborating with teams 
+		across labs and flight test to meet the critical needs of aeronautics programs. 
+		My team's work involves software engineering, data engineering, data science, and analysis. 
 		I have developed and contributed to projects that cover a wide range of aircraft capabilities. 
-		Customers of these projects are both internal and external and facilitate multi-million dollar, mission critical decisions.`,
+		and facilitate multi-million dollar, mission critical decisions.`,
 		contract: ContractType.FullTime,
 		type: 'Software Development',
 		location: 'Fort Worth',

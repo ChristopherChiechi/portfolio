@@ -51,18 +51,34 @@ const items: Array<Education> = [
 		subjects: ['AI/ML Fundamentals', 'Object Detection']
 	},
 	{
-		name: 'Strategic Management MBA',
+		name: `Master's in Business Administration`,
 		description:
-			`I am currently pursuing a master's in business administration with a concentration in strategic management 
-			to help compliment my more technical experience, as well as provide new learning opportunities outside of work.`,
+			`I graduated summa cum laude from the University of North Texas with a
+			Master's in Business Administration and concentration in Strategic management.`,
 		location: 'Denton',
 		logo: Assets.UNT,
 		color: 'green',
 		organization: 'University of North Texas',
-		period: { from: new Date("2025-01-13"), to: new Date("2026-12-31") },
+		period: { from: new Date("2025-01-13"), to: new Date("2026-07-24") },
 		shortDescription: '',
-		slug: 'strategic-management-mba',
-		subjects: ['Strategic Management', 'Business Administration']
+		slug: 'masters-business-administration',
+		subjects: ['Business Administration', 'Strategic Management']
+	},
+	{
+		name: `Master's in Computer Science`,
+		description:
+			`I am currently pursuing a Master's in Computer Science with concentrations in both 
+			AI and data science.`,
+		location: '',
+		logo: Assets.UIUC,
+		color: '#FF5F05',
+		organization: 'University of Illinois Urbana-Champaign',
+		period: { from: new Date("2026-07-24"), to: new Date("2028-12-31") },
+		shortDescription: '',
+		slug: 'masters-computer-science',
+		subjects: ['Artificial Intelligence', 'Machine Learning', 'Deep Learning',
+			'Scientific Visualization', 'Cloud Computing', 'Software Engineering',
+		]
 	},
 ];
 

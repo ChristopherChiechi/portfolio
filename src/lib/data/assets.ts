@@ -75,13 +75,14 @@ const Assets = {
 	BlueprintVisualScripting: asset("blueprint_visual_scripting.jpg"),
 	Lockheed: asset('lockheed.png'),
 	UNT: asset('unt.png'),
+	UIUC: asset('uiuc.png'),
 	Unreal: asset("unreal.png"),
 	Unity: asset("unity.jpg"),
 	LARC: asset("larc.png"),
 	Box2D: asset("box2d.png"),
 	Plotly: asset("plotly.png"),
 	TheWitness: asset("the_witness.jpg"),
-	DemonsSouls: asset("demons_souls.jpg"),
+	DemonsSouls: asset("demons_souls_jp_textless.jpg"),
 };
 
 export default Assets;
