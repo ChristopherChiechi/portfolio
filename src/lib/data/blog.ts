@@ -50,7 +50,7 @@ const items: Array<Blog> = [
         screenshots: [
 			{
 				label: 'Cover',
-				src: url("demons_souls.jpg"),
+				src: url("demons_souls_jp_textless.jpg"),
 			},
 		]
 	},
