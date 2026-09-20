@@ -12,8 +12,11 @@ const hero: {
 	title: `${BaseData.fullName}`,
 	description:
 		`I graduated magna cum laude from the University of North Texas with a Bachelor of Science
-		in Computer Science and a Certificate in Game Programming. I am a software engineer at
-		Lockheed Martin Aeronautics and am currently pursuing a Strategic Management MBA.
+		in Computer Science and a certificate in game programming. I also earned a Master's in 
+		Business Administration with a concentration in strategic management from the University 
+		of North Texas with summa cum laude honors. I am currently pursuing a Master's in 
+		Computer Science with concentrations in both AI and data science from the University of 
+		Illinois Urbana-Champaign. I am a software engineer at Lockheed Martin Aeronautics.
 		`,
 	links: [
 		{ label: 'LinkedIn', href: 'https://www.linkedin.com/in/christopher-chiechi/', icon: 'i-carbon-logo-linkedin' },
